@@ -238,16 +238,21 @@ section[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] p {
 .food-row:last-child { border-bottom: none; }
 .food-name {
     font-weight: 600;
-    color: var(--slate-900);
+    color: #E8F5E9 !important;
 }
 .food-meta {
     font-size: 0.85rem;
-    color: var(--slate-500);
+    color: #A5D6A7 !important;
 }
 .food-cost {
     font-weight: 700;
-    color: var(--green-700);
+    color: #81C784 !important;
     font-size: 1.05rem;
+}
+@media (prefers-color-scheme: light) {
+    .food-name { color: #1B5E20 !important; }
+    .food-meta { color: #558B2F !important; }
+    .food-cost { color: #2E7D32 !important; }
 }
 
 /* ── Buttons ── */
