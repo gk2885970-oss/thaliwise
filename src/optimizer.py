@@ -78,10 +78,9 @@ def optimize_diet(
     # Compatible with PuLP 2.x and 4.x (dicts API removed in some 4.x builds)
     
     qty = {}
-    for fid in food_ids:
-        v = pulp.LpVariable(f"qty_{fid}", cat="Continuous")
-        v.lowBound = 0
-        qty[fid] = v
+    qty = pulp.LpVariable.dicts(
+    "qty_g", food_ids, lowBound=0, cat="Continuous"
+)
 
     # Objective: minimize cost
     # cost = (price_per_kg / 1000) * grams
@@ -244,11 +243,9 @@ def _handle_infeasible(
     """Solve without budget to get minimum cost for nutrition, then report gap."""
     prob = pulp.LpProblem("ThaliWise_MinCost", pulp.LpMinimize)
     food_ids = df["food_id"].tolist()
-    qty = {}
-    for fid in food_ids:
-        v = pulp.LpVariable(f"qty2_{fid}", cat="Continuous")
-        v.lowBound = 0
-        qty[fid] = v
+    qty = pulp.LpVariable.dicts(
+    "qty_g", food_ids, lowBound=0, cat="Continuous"
+)
 
     costs = []
     for _, row in df.iterrows():
