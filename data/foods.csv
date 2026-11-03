@@ -1,0 +1,56 @@
+food_id,name_en,name_hi,category,calories_kcal_per_100g,protein_g_per_100g,iron_mg_per_100g,price_inr_per_kg,unit,price_source,price_date,market,seasonal_availability,is_vegetarian,is_vegan,min_qty_g_week,max_qty_g_week,notes
+F001,Rice (raw milled),चावल,Cereals,356,7.9,0.7,42,kg,Delhi FSD retail (illustrative pilot),2025-10,Delhi/NCR,Year-round,True,True,500,5000,Common staple; IFCT approx
+F002,Wheat flour (atta),आटा,Cereals,320,10.6,4.9,35,kg,Delhi FSD retail (illustrative pilot),2025-10,Delhi/NCR,Year-round,True,True,500,5000,Whole wheat atta; higher iron
+F003,Bajra (pearl millet),बाजरा,Cereals,348,11.0,8.0,45,kg,Local pilot survey,2025-10,Delhi/NCR,Seasonal peak winter,True,True,0,2000,High iron millet
+F004,Ragi (finger millet),रागी,Cereals,321,7.2,3.9,55,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,True,True,0,1500,Good calcium & iron
+F005,Jowar (sorghum),ज्वार,Cereals,334,10.0,3.4,40,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,True,True,0,2000,
+F006,Bengal gram dal (chana dal),चना दाल,Pulses,329,21.6,5.3,90,kg,Delhi FSD retail (illustrative pilot),2025-10,Delhi/NCR,Year-round,True,True,200,3000,IFCT 2017 approx
+F007,Red gram dal (arhar/toor),अरहर दाल,Pulses,331,21.7,2.7,120,kg,Delhi FSD retail (illustrative pilot),2025-10,Delhi/NCR,Year-round,True,True,200,3000,
+F008,Masoor dal (lentil),मसूर दाल,Pulses,322,24.4,7.6,95,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,True,True,200,3000,High protein & iron
+F009,Moong dal,मूंग दाल,Pulses,326,23.9,3.9,110,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,True,True,200,3000,
+F010,Urad dal,उड़द दाल,Pulses,324,23.1,3.9,130,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,True,True,100,2000,
+F011,Rajma (kidney beans),राजमा,Pulses,298,19.5,5.1,120,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,True,True,100,2000,
+F012,Kabuli chana (chickpeas),काबुली चना,Pulses,287,18.8,4.6,100,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,True,True,100,2000,
+F013,Soybean,सोयाबीन,Pulses,381,35.6,9.7,80,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,True,True,0,1500,Very high protein
+F014,Potato,आलू,Vegetables,77,1.6,0.5,25,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,True,True,500,5000,Cheap energy
+F015,Onion,प्याज,Vegetables,40,1.1,0.4,30,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,True,True,200,2000,
+F016,Tomato,टमाटर,Vegetables,18,0.9,0.5,40,kg,Local pilot survey,2025-10,Delhi/NCR,Seasonal,True,True,200,2000,
+F017,Spinach (palak),पालक,Vegetables,23,2.9,2.7,30,kg,Local pilot survey,2025-10,Delhi/NCR,Seasonal winter peak,True,True,200,2000,High iron leafy
+F018,Cabbage,पत्ता गोभी,Vegetables,27,1.4,0.6,25,kg,Local pilot survey,2025-10,Delhi/NCR,Seasonal,True,True,200,2000,
+F019,Cauliflower,फूल गोभी,Vegetables,32,2.0,0.6,35,kg,Local pilot survey,2025-10,Delhi/NCR,Seasonal,True,True,200,2000,
+F020,Carrot,गाजर,Vegetables,41,0.9,0.4,40,kg,Local pilot survey,2025-10,Delhi/NCR,Seasonal winter,True,True,200,1500,
+F021,Bottle gourd (lauki),लौकी,Vegetables,12,0.6,0.3,20,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,True,True,300,3000,Very cheap volume
+F022,Brinjal (baingan),बैंगन,Vegetables,24,1.4,0.4,30,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,True,True,200,2000,
+F023,Lady finger (bhindi),भिंडी,Vegetables,35,2.1,0.8,50,kg,Local pilot survey,2025-10,Delhi/NCR,Seasonal,True,True,100,1500,
+F024,Banana,केला,Fruits,105,1.2,0.4,50,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,True,True,200,2000,Cheap fruit energy
+F025,Apple,सेब,Fruits,52,0.3,0.1,120,kg,Local pilot survey,2025-10,Delhi/NCR,Seasonal,True,True,0,1000,
+F026,Orange,संतरा,Fruits,47,0.9,0.1,60,kg,Local pilot survey,2025-10,Delhi/NCR,Seasonal winter,True,True,0,1500,
+F027,Papaya,पपीता,Fruits,39,0.6,0.3,40,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,True,True,200,2000,
+F028,Milk (tonned),दूध,Dairy,60,3.2,0.1,57,litre,Delhi FSD retail (illustrative pilot),2025-10,Delhi/NCR,Year-round,True,False,1000,10000,Per litre; density ~1.03
+F029,Curd (dahi),दही,Dairy,60,3.5,0.1,60,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,True,False,200,3000,
+F030,Paneer,पनीर,Dairy,265,18.3,0.2,350,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,True,False,0,1000,Expensive protein
+F031,Egg (hen),अंडा,Eggs,143,12.6,1.7,6,piece,Local pilot survey,2025-10,Delhi/NCR,Year-round,False,False,0,21,Price per egg ~Rs 6; ~50g each; non-veg
+F032,Chicken (dressed),मुर्गी,Meat,167,20.0,0.9,180,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,False,False,0,2000,Non-veg
+F033,Rohu fish,रोहू मछली,Meat,97,16.6,1.0,200,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,False,False,0,1500,Non-veg
+F034,Groundnut (peanut),मूंगफली,Nuts_Seeds,520,23.6,3.5,120,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,True,True,0,1000,High energy & protein
+F035,Sesame seeds (til),तिल,Nuts_Seeds,520,21.7,9.3,180,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,True,True,0,500,High iron
+F036,Mustard oil,सरसों तेल,Fats_Oils,884,0.0,0.0,180,litre,Delhi FSD retail (illustrative pilot),2025-10,Delhi/NCR,Year-round,True,True,100,1000,Cooking oil; density ~0.9
+F037,Soybean oil,सोयाबीन तेल,Fats_Oils,884,0.0,0.0,140,litre,Local pilot survey,2025-10,Delhi/NCR,Year-round,True,True,100,1000,
+F038,Sugar,चीनी,Others,398,0.0,0.1,45,kg,Delhi FSD retail (illustrative pilot),2025-10,Delhi/NCR,Year-round,True,True,0,1000,Optional energy
+F039,Jaggery (gur),गुड़,Others,383,0.4,2.6,60,kg,Delhi FSD retail (illustrative pilot),2025-10,Delhi/NCR,Year-round,True,True,0,1000,Better than sugar; some iron
+F040,Green peas (fresh),हरी मटर,Vegetables,81,5.4,1.5,60,kg,Local pilot survey,2025-10,Delhi/NCR,Seasonal winter,True,True,0,1500,
+F041,Methi leaves,मेथी,Vegetables,49,4.4,1.9,40,kg,Local pilot survey,2025-10,Delhi/NCR,Seasonal,True,True,100,1000,Bitter leafy; good iron
+F042,Coriander leaves,धनिया,Vegetables,23,2.1,1.4,50,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,True,True,50,500,Herb
+F043,Garlic,लहसुन,Vegetables,145,6.4,1.2,150,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,True,True,50,300,
+F044,Ginger,अदरक,Vegetables,67,1.8,1.0,80,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,True,True,50,300,
+F045,Cucumber,खीरा,Vegetables,13,0.6,0.2,25,kg,Local pilot survey,2025-10,Delhi/NCR,Seasonal,True,True,200,2000,
+F046,Beetroot,चुकंदर,Vegetables,43,1.6,0.8,40,kg,Local pilot survey,2025-10,Delhi/NCR,Seasonal,True,True,100,1000,
+F047,Sweet potato,शकरकंद,Vegetables,102,1.2,0.6,35,kg,Local pilot survey,2025-10,Delhi/NCR,Seasonal,True,True,200,2000,
+F048,Amla (Indian gooseberry),आंवला,Fruits,58,0.5,0.5,60,kg,Local pilot survey,2025-10,Delhi/NCR,Seasonal winter,True,True,0,1000,Vitamin C rich
+F049,Guava,अमरूद,Fruits,68,2.6,0.3,50,kg,Local pilot survey,2025-10,Delhi/NCR,Seasonal,True,True,0,1500,Good vitamin C
+F050,Tofu / soy paneer,टोफू,Pulses,76,8.1,1.1,120,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,True,True,0,1500,Plant protein alternative
+F051,Bread (white),ब्रेड,Cereals,265,9.0,1.5,50,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,True,True,0,1500,Convenience
+F052,Poha (rice flakes),पोहा,Cereals,354,7.4,1.8,60,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,True,True,0,1500,
+F053,Suji (semolina),सूजी,Cereals,334,11.4,1.5,45,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,True,True,0,1500,
+F054,Besan (gram flour),बेसन,Pulses,352,20.0,5.0,90,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,True,True,0,1500,
+F055,Curry leaves,करी पत्ता,Vegetables,108,6.1,2.9,80,kg,Local pilot survey,2025-10,Delhi/NCR,Year-round,True,True,20,200,Herb; high iron density

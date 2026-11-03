@@ -1,0 +1,16 @@
+category,age_group,sex,calories_kcal,protein_g,iron_mg,source_note
+Adult,18-59,Male,2400,54,19,ICMR-NIN 2020 approx sedentary-moderate; protein 0.83g/kg ~65kg
+Adult,18-59,Female,1900,46,29,ICMR-NIN 2020; higher iron for women
+Adult,60+,Male,2000,54,19,ICMR-NIN approx reduced energy
+Adult,60+,Female,1700,46,20,ICMR-NIN approx
+Child,1-3,Any,1100,12.5,8,ICMR-NIN 2020 approx
+Child,4-6,Any,1400,16,11,ICMR-NIN 2020 approx
+Child,7-9,Any,1700,23,15,ICMR-NIN 2020 approx
+Adolescent,10-12,Male,2200,32,16,ICMR-NIN 2020 approx
+Adolescent,10-12,Female,2000,33,28,ICMR-NIN 2020 approx
+Adolescent,13-15,Male,2500,45,22,ICMR-NIN 2020 approx
+Adolescent,13-15,Female,2100,43,30,ICMR-NIN 2020 approx
+Adolescent,16-18,Male,2700,55,22,ICMR-NIN 2020 approx
+Adolescent,16-18,Female,2100,46,30,ICMR-NIN 2020 approx
+Pregnant,Any,Female,2200,60,27,ICMR-NIN approx 2nd/3rd trimester average addition
+Lactating,0-6m,Female,2300,65,23,ICMR-NIN approx
