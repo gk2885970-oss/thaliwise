@@ -1138,12 +1138,15 @@ elif page == "NGO Dashboard":
 # ABOUT & DATA
 # ═══════════════════════════════════════════════════════════════════════════
 elif page == "About & Data":
-    st.markdown('<p class="section-title">ℹ️ About ThaliWise</p>', unsafe_allow_html=True)
+    st.markdown(
+        '<p style="font-family:Outfit,sans-serif;font-size:1.45rem;font-weight:600;color:#E8F5E9;">ℹ️ About ThaliWise</p>',
+        unsafe_allow_html=True,
+    )
 
     st.markdown(
         """
-        <div class="card">
-            <b>ThaliWise</b> is a student prototype for Innovation & Entrepreneurship.
+        <div style="background:rgba(67,160,71,0.15);border:1px solid rgba(165,214,167,0.4);border-radius:16px;padding:1.35rem 1.5rem;margin-bottom:1rem;color:#E8F5E9;line-height:1.6;">
+            <b style="color:#C8E6C9;">ThaliWise</b> is a student prototype for Innovation & Entrepreneurship.
             It makes the classic linear-programming diet problem (Stigler, 1945) practical for
             Indian households by combining verified nutrient data with sample local prices and a plain-language interface.
         </div>
@@ -1155,34 +1158,41 @@ elif page == "About & Data":
     with c1:
         st.markdown(
             """
-            **Core engine**
-            - Linear programming (PuLP / CBC)
-            - Minimises weekly cost
-            - Constraints: calories, protein, iron, budget, diet, variety
-
-            **AI layer**
-            - Rule-based NL parsing & explanations
-            - No paid API required
-            - Ready for optional LLM upgrade
-            """
+            <div style="color:#E8F5E9;line-height:1.7;">
+            <b style="color:#A5D6A7;">Core engine</b><br>
+            • Linear programming (PuLP / CBC)<br>
+            • Minimises weekly cost<br>
+            • Constraints: calories, protein, iron, budget, diet, variety<br><br>
+            <b style="color:#A5D6A7;">AI layer</b><br>
+            • Rule-based NL parsing & explanations<br>
+            • No paid API required<br>
+            • Ready for optional LLM upgrade
+            </div>
+            """,
+            unsafe_allow_html=True,
         )
     with c2:
         st.markdown(
             """
-            **Data sources**
-            - Nutrients ≈ IFCT 2017 (ICMR-NIN)
-            - Targets ≈ ICMR-NIN 2020 RDAs
-            - Prices: illustrative Delhi/NCR pilot values
-            - **Not live market prices**
-
-            **Limitations**
-            - ~55 common foods
-            - Static sample prices
-            - General planning only — not medical advice
-            """
+            <div style="color:#E8F5E9;line-height:1.7;">
+            <b style="color:#A5D6A7;">Data sources</b><br>
+            • Nutrients ≈ IFCT 2017 (ICMR-NIN)<br>
+            • Targets ≈ ICMR-NIN 2020 RDAs<br>
+            • Prices: illustrative Delhi/NCR pilot values<br>
+            • <b>Not live market prices</b><br><br>
+            <b style="color:#A5D6A7;">Limitations</b><br>
+            • ~55 common foods<br>
+            • Static sample prices<br>
+            • General planning only — not medical advice
+            </div>
+            """,
+            unsafe_allow_html=True,
         )
 
-    st.markdown('<p class="section-title" style="font-size:1.15rem;">Food database preview</p>', unsafe_allow_html=True)
+    st.markdown(
+        '<p style="font-family:Outfit,sans-serif;font-size:1.15rem;font-weight:600;color:#E8F5E9;margin-top:1.5rem;">Food database preview</p>',
+        unsafe_allow_html=True,
+    )
     st.dataframe(
         foods_df[
             ["food_id", "name_en", "category", "calories_kcal_per_100g", "protein_g_per_100g", "iron_mg_per_100g", "price_inr_per_kg"]
@@ -1202,6 +1212,6 @@ elif page == "About & Data":
     st.caption(f"{len(foods_df)} foods loaded · Validation OK: {foods_ok}")
 
     st.markdown(
-        '<p class="disclaimer">ThaliWise · Group A2 · Innovation & Entrepreneurship · General nutrition planning only</p>',
+        '<p style="font-size:0.8rem;color:#94A3B8;text-align:center;margin-top:2rem;">ThaliWise · Group A2 · Innovation & Entrepreneurship · General nutrition planning only</p>',
         unsafe_allow_html=True,
     )
